@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card } from 'antd';
-import Button from 'react-bootstrap/Button';
 //import { addToCart } from '../state/action-creators';
 const { Meta } = Card;
 

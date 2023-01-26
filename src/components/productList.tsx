@@ -1,6 +1,6 @@
 import React from "react";
-import { MDBIcon } from "mdb-react-ui-kit";
-import { useSelector, useDispatch } from "react-redux";
+
+import {  useDispatch } from "react-redux";
 import { addToCart} from "../redux/actions";
 
 import { Button, Card } from "antd";
@@ -16,7 +16,7 @@ const ProductList = ({ id, img, title, price, amount }: { id: number; img: any; 
         style={{width: 240,
             marginBottom: 20,
         }}
-        cover={<img src={img}/>}
+        cover={<img src={img} alt={"sad"}/>}
     >
         <Meta title={title} description={price + "$"}/>
         <Button onClick={() => dispatch(addToCart(id))}>Add To Cart</Button>
