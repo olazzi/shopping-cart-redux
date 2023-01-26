@@ -19,7 +19,9 @@ const ProductList = ({ id, img, title, price, amount }: { id: number; img: any; 
         cover={<img src={img} alt={"sad"}/>}
     >
         <Meta title={title} description={price + "$"}/>
-        <Button onClick={() => dispatch(addToCart(id))}>Add To Cart</Button>
+        <Button style={{
+            backgroundColor:"beige",
+        }} onClick={() => dispatch(addToCart(id))}>Add To Cart</Button>
     </Card>
     );
 };

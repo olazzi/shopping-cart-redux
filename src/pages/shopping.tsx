@@ -13,7 +13,8 @@ const CartContainer = () => {
    
 
     return (
-        <div style={{backgroundColor: "lightblue"}}><NavBar/>
+        <div style={{backgroundColor: "lightblue"}}>
+            <NavBar/>
             <div style={{backgroundColor: "lightblue",
             marginLeft: 180,
             marginRight: 180,

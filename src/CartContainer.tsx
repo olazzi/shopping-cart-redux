@@ -28,6 +28,13 @@ const CartContainer = () => {
     return (
         <div>
             <h2 className="fw-bold">Your Shopping Cart</h2>
+            <Button
+                style={{
+                    backgroundColor:"orangered",
+                    justifyContent:"center",
+                    display:"flex",
+                }}
+                onClick={() => dispatch(clearItems())}>Clear Cart</Button>
             {cart.map((item: JSX.IntrinsicAttributes & { id: number; img: any; title: string; price: number; amount: number; }) => {
                 return <CartItems key={item.id} {...item} />;
             })}
