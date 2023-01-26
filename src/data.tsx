@@ -31,14 +31,14 @@ export default [
         id: 5,
         title: " BMW 5.20D 163HP PREMİUM",
         price: 400.0,
-        img: "https://res.cloudinary.com/drecbsopp/image/upload/v1627398698/nokia3_resize_md_qdw7bv.jpg",
+        img: "https://resizing.flixster.com/kxejUSFjS4mtH8RTMhPaRSG_kp0=/740x380/v2/https://statcdn.fandango.com/MPX/image/NBCU_Fandango/459/359/thumb_B33AE747-184C-4B10-8EEF-4CA4D29F14BA.jpg",
         amount: 1,
     },
     {
         id: 6,
         title: " BMW 5.20D 163HP PREMİUM",
         price: 400.0,
-        img: "https://res.cloudinary.com/drecbsopp/image/upload/v1627398698/nokia3_resize_md_qdw7bv.jpg",
+        img: "https://www.webtekno.com/images/editor/default/0003/55/f4c82069662da672d3615f3c5437311f12bacbde.jpeg",
         amount: 1,
     },
     {
@@ -50,9 +50,9 @@ export default [
     },
     {
         id: 8,
-        title: " BMW 5.20D 163HP PREMİUM",
+        title: " BMW 5.20D ",
         price: 400.0,
-        img: "https://res.cloudinary.com/drecbsopp/image/upload/v1627398698/nokia3_resize_md_qdw7bv.jpg",
+        img: "https://cdnuploads.aa.com.tr/uploads/sirkethaberleri/Contents/2019/10/28/thumbs_b_c_fd9d419bb221d20609dfb187ea2f7916.jpg",
         amount: 1,
     },
 ];

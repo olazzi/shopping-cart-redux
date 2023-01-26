@@ -28,7 +28,13 @@ const NavBar = () => {
                             justifyContent: "space-between",
                         }}
                     >
-                        Redux Shopping Cart
+                        <div style={{backgroundColor: "pink",
+                            padding: 10,
+                            borderRadius: 30,
+
+                        }}>
+                            <a style={{color: "blue"}} href="/">REDUX SHOPPING</a>
+                        </div>
                     </MDBNavbarBrand>
 
                     <MDBBtn
@@ -39,8 +45,13 @@ const NavBar = () => {
                     >
                         Get Items
                     </MDBBtn>
+                        <div style={{backgroundColor: "white",
+                        padding: 10,
+                            borderRadius: 30,
 
-                        <a style={{color: "white"}} href="/about">Your cart has  {totalCount} products</a>
+                        }}>
+                        <a style={{color: "black"}} href="/about">GO CART ({totalCount} products)</a>
+                        </div>
 
                 </MDBContainer>
             </MDBNavbar>

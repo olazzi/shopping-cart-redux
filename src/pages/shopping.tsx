@@ -13,8 +13,11 @@ const CartContainer = () => {
    
 
     return (
-        <><NavBar/>
-            <div>
+        <div style={{backgroundColor: "lightblue"}}><NavBar/>
+            <div style={{backgroundColor: "lightblue",
+            marginLeft: 180,
+            marginRight: 180,
+            }}>
                 <div style={{
                     display: 'grid',
                     gridTemplateColumns: 'repeat(4, 1fr)',
@@ -26,7 +29,7 @@ const CartContainer = () => {
 
 
             </div>
-        </>
+        </div>
     );
 };
 
