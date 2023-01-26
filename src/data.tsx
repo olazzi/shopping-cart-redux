@@ -1,0 +1,58 @@
+export default [
+    {
+        id: 1,
+        title: "DUBAI VACATION",
+        price: 700.0,
+        img: "https://cdn.britannica.com/15/189715-050-4310222B/Dubai-United-Arab-Emirates-Burj-Khalifa-top.jpg",
+        amount: 1,
+    },
+    {
+        id: 2,
+        title: "Moto G5 N PREMIUM LINE - 520 KM",
+        price: 600.0,
+        img: "https://res.cloudinary.com/drecbsopp/image/upload/v1627398477/MotoGPowerDual_2021_Reformatted_1_330x_wp8gve.png",
+        amount: 1,
+    },
+    {
+        id: 3,
+        title: "N PREMIUM LINE - 520 KM",
+        price: 500.0,
+        img: "https://res.cloudinary.com/drecbsopp/image/upload/v1627398543/D7A7DA95-AEF8-228B-A2D2-A3FEBF237C33_y9p6wq.png",
+        amount: 1,
+    },
+    {
+        id: 4,
+        title: " BMW 5.20D 163HP PREMİUM",
+        price: 400.0,
+        img: "https://res.cloudinary.com/drecbsopp/image/upload/v1627398698/nokia3_resize_md_qdw7bv.jpg",
+        amount: 1,
+    },
+    {
+        id: 5,
+        title: " BMW 5.20D 163HP PREMİUM",
+        price: 400.0,
+        img: "https://res.cloudinary.com/drecbsopp/image/upload/v1627398698/nokia3_resize_md_qdw7bv.jpg",
+        amount: 1,
+    },
+    {
+        id: 6,
+        title: " BMW 5.20D 163HP PREMİUM",
+        price: 400.0,
+        img: "https://res.cloudinary.com/drecbsopp/image/upload/v1627398698/nokia3_resize_md_qdw7bv.jpg",
+        amount: 1,
+    },
+    {
+        id: 7,
+        title: " BMW 5.20D 163HP PREMİUM",
+        price: 400.0,
+        img: "https://res.cloudinary.com/drecbsopp/image/upload/v1627398698/nokia3_resize_md_qdw7bv.jpg",
+        amount: 1,
+    },
+    {
+        id: 8,
+        title: " BMW 5.20D 163HP PREMİUM",
+        price: 400.0,
+        img: "https://res.cloudinary.com/drecbsopp/image/upload/v1627398698/nokia3_resize_md_qdw7bv.jpg",
+        amount: 1,
+    },
+];
